@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('/img/bg.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Poppins';
+    z-index: 0;
+}
+
+main{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    z-index: 5;
+}
+
+.right{
+    position: fixed;
+    z-index: 10;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 40%;
+    background-color: black;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    padding: 50px;
+}
+
+.right form{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.right form h2{
+    color: #FDDE05;
+}
+
+.right .here{
+    color: white;
+    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.right .here a{
+    text-decoration: none;
+    font-weight: 500;
+    color: #FDDE05;
+}
+
+.right input{
+    padding: 10px 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Poppins';
+    border-radius: 25px;
+    border: none;
+}
+
+.right .remember{
+    color: white;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.right .remember p{
+    margin-left: 5px;
+}
+
+.right .forget{
+    display: flex;
+    justify-content: end;
+    color: white;
+    font-size: 12px;
+}
+
+.right .forget a{
+    text-decoration: none;
+    color: white;
+}
+
+.login{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: none;
+    color: white;
+    font-family: 'Poppins';
+    font-weight: 600;
+    background-color: #B5179E;
+    border-radius: 25px;
+}
+
+.or{
+    display: flex;
+    color: rgba(255, 255, 255, 0.632);
+    font-size: 12px;
+    align-items: center;
+}
+
+.line{
+    width: 100%;
+    border-bottom: 1px rgba(255, 255, 255, 0.647) solid;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.google{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    border: 1px #B5179E solid;
+    font-weight: 500;
+    color: white;
+    padding: 10px;
+    border-radius: 25px;
+    font-family: 'Poppins';
+    font-size: 12px;
+}
+
+.google img{
+    margin-right: 5px;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.left{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 60%;
+}
+
+.left img{
+    width: 200px;
+}
+
+#error-message{
+    font-size: 12px;
+    color: #B5179E;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
